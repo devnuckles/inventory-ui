@@ -1,4 +1,4 @@
-import * as React from "react";
+import { Search } from "lucide-react";
 
 export default function DashboardHeader() {
     return (
@@ -9,7 +9,7 @@ export default function DashboardHeader() {
                     <div className="row">
                         <div className="col-lg-10 dashboard-right-header-left">
                             <div className="dashboard-header-search">
-                                <i class="bi bi-search"></i>
+                                <Search size={48} fill="red" />
                                 <input
                                     type="search"
                                     className="form-control"
